@@ -15,6 +15,13 @@ public class Animal {
         this.weight = weight;
     }
 
+    //methods of actions
+    public void eat(){
+        System.out.println("Animal eats");
+    }
+    public void move(){
+
+    }
     public String getName() {
         return name;
     }
